@@ -1,0 +1,8 @@
+:root {
+  --header-height: 64px;
+  --tab-border-color: rgb(255 255 255 / 9%);
+  --max-width: 1360px;
+  --body-color: #18181c;
+  --border-red: #FB819A;
+  --border-blue: #57E0FF;
+}

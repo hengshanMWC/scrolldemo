@@ -1,0 +1,21 @@
+body {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* 自动移滚动条样式 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(50 50 50 / 30%);
+  border-radius: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(50 50 50 / 10%);
+  border-radius: 1em;
+}
+
+/* 自动移滚动条样式end */
