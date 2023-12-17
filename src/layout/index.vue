@@ -4,13 +4,14 @@ import { AppMain, Footer, Header } from './components/index'
 </script>
 
 <template>
-  <NLayout class="h-screen layout-box overs">
+  <!-- <NLayout class="h-screen layout-box overs">
     <div class="flex flex-col">
       <Header />
       <AppMain class="main-box" />
     </div>
     <Footer />
-  </NLayout>
+  </NLayout> -->
+  <AppMain class="main-box" />
 </template>
 
 <style lang="scss">

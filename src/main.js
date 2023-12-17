@@ -6,7 +6,6 @@ import routes from './routes'
 import 'normalize.css/normalize.css'
 import 'uno.css'
 import './styles/variables.css'
-import './helpers/bs'
 
 const router = createRouter({
   history: createWebHashHistory(),

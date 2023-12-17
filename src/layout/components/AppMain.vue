@@ -10,11 +10,14 @@ const key = computed(() => {
 </script>
 
 <template>
-  <NLayoutContent class="app-main px-4">
+  <!-- <NLayoutContent class="app-main px-4">
     <RouterView v-slot="{ Component }">
       <component :is="Component" :key="key" class="main-content" />
     </RouterView>
-  </NLayoutContent>
+  </NLayoutContent> -->
+  <RouterView v-slot="{ Component }">
+    <component :is="Component" :key="key" class="main-content" />
+  </RouterView>
 </template>
 
 <style scoped>
@@ -22,7 +25,11 @@ const key = computed(() => {
   position: relative;
   width: var(--max-width);
   max-width: var(--max-width);
-  height: calc(100vh - var(--header-height) * 2);
-  max-height: calc(100vh - var(--header-height) * 2);
+
+  /* height: calc(100vh - var(--header-height) * 2); */
+
+  /* max-height: calc(100vh - var(--header-height) * 2); */
+
+  /* overflow: hidden; */
 }
 </style>
